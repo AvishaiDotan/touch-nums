@@ -1,0 +1,73 @@
+.board {
+    background-color: black;
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    border: 2px rgb(129, 92, 72) solid;
+}
+
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+td {
+    background-image: linear-gradient(180deg, rgb(251, 247, 158), rgb(220, 132, 0), rgb(198, 119, 0));
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:'Lucida Grande';
+    height: 10px;
+    width: 10px;
+}
+
+td:hover {
+    cursor: pointer;
+    background-image: linear-gradient(180deg, rgb(192, 189, 135), rgb(163, 98, 0), rgb(126, 76, 1));
+}
+
+.checked-cell {
+    background-image: linear-gradient(0deg, rgb(49, 49, 49), rgb(79, 79, 79), rgb(155, 155, 155));
+}
+
+.checked-cell:hover {
+    background-image: linear-gradient(0deg, rgb(49, 49, 49), rgb(79, 79, 79), rgb(155, 155, 155));
+}
+
+
+p {
+    text-align: center;
+    color: white;
+    font-size:large;
+    font-family: 'Lucida Sans Regular';
+    font-weight: 500;
+}
+
+
+.btn-container {
+    text-align: center;
+}
+
+button {
+    transition: 0.2s;
+    font-family: 'Lucida Sans';
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size:large;
+    font-family: 'Lucida Sans Regular';
+    font-weight: 500;
+    display: none;
+}

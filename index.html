@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="css\game.css">
+</head>
+
+<body onload="init()">
+    <div class="board">
+        <p>Target Number: 0</p>
+        <div class="btn-container">
+            <button onclick="setLevel(0)">easy</button>
+            <button onclick="setLevel(1)">medium</button>
+            <button onclick="setLevel(2)">hard</button>
+        </div>
+        <p class="timer"></p>
+        <table>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <h2>We Have Winner!<br>🏴‍☠️🏴‍☠️🏴‍☠️</h2>
+    </div>
+
+    <script src="js\game.js"></script>
+</body>
+
+</html>
