@@ -1,11 +1,4 @@
 'use strict'
-
-// COMMIT
-import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
-const octokit = new Octokit({
-    auth: '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'})
-console.log('me')
-console.log(octokit);
 // global const
 
 const CELLS = [16, 25, 36] // Defaults
