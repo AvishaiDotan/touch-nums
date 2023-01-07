@@ -9,7 +9,8 @@ This game, written in **vanilla JavaScript** and utilizing **CSS** for styling, 
 
 <a href="https://avishaidotan.github.io/touch-nums/"><a/>
 
-![Touch-Nums (1)](https://user-images.githubusercontent.com/108017307/211169694-4eeb025f-0a2e-4d76-8b5a-4ef03637bf6c.png)
+![Touch-Nums (2)](https://user-images.githubusercontent.com/108017307/211169723-6c5884aa-2080-4e5f-9079-5ebc6d31ab9b.png)
+
 
 
 ## Tech
